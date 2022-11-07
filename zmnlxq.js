@@ -28,7 +28,7 @@ let ok = ''
         await getVersion();
 	  console.log(`\n============ 当前版本：${Version}  最新版本：${VersionLatest} ============`)
         console.log(`目前实现功能：日常签到`);
-        console.log(`脚本库：http://www.holyxie.com/`);    
+        console.log(`京东车：http://guoke.nat100.top`);    
 
 		console.log(`\n\n=========================================    \n脚本执行 - 北京时间(UTC+8)：${new Date(
 			new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 +
