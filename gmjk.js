@@ -38,7 +38,7 @@ let ruleId4 = '';
 		return;
 	else {
  
-		console.log(`小飞棍来咯  当前版本号：V.0.0.3 `);
+		console.log(`Arui来喽  当前版本号：V.0.0.3 `);
         console.log(`任务更新：优化自动获取任务ID项`);
         console.log(`小程序任务要求：改成这四个 记录便便  按时吃饭  按时睡觉  起床喝杯水`);
         console.log(`京东车：http://guoke.nat100.top`);    
