@@ -41,7 +41,7 @@ let ruleId4 = '';
 		console.log(`小飞棍来咯  当前版本号：V.0.0.3 `);
         console.log(`任务更新：优化自动获取任务ID项`);
         console.log(`小程序任务要求：改成这四个 记录便便  按时吃饭  按时睡觉  起床喝杯水`);
-        console.log(`脚本库：http://www.holyxie.com/`);    
+        console.log(`京东车：http://guoke.nat100.top`);    
 		console.log(`\n\n=========================================    \n脚本执行 - 北京时间(UTC+8)：${new Date(
 			new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 +
 			8 * 60 * 60 * 1000).toLocaleString()} \n=========================================\n`);
