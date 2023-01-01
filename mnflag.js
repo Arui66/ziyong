@@ -1,5 +1,5 @@
 /*
-微信打开: #小程序://蒙牛营养生活家/FzGssVYt9Gii0Eq
+微信打开:小程序
 抓域名flagapi.letlike.com
 请求头token
 抓域名member-api.mengniu.cn
