@@ -9,6 +9,7 @@ export fdshck="XXXXXXXX#XXXXXXX@XXXXXX#XXXXX"  多账号用 @ 隔开
 如:userId=fdsh-IOS-hdgj_rxbhsy=1891943122975506676;consumerId=fdsh-IOS-hdgj_rxbhsy=5320418;变量只需要1891943122975506676#5320418就行
 定时:一天一到两次
 支持qx v2p 青龙
+cron: 57 0,9 * * *
 const $ = new Env('福袋生活');
 */
 
