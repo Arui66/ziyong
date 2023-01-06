@@ -1,5 +1,5 @@
 /*
-微信打开:小程序
+微信打开:小程序 蒙牛营养生活家
 抓域名flagapi.letlike.com
 请求头token
 抓域名member-api.mengniu.cn
@@ -8,6 +8,7 @@
 请求连接 unionId
 变量
 export mnflaghd='token&X-Token&unionId'
+cron: 57 6 * * *
 */
 const $ = new Env('猛男flag');
 const axios = require('axios');
