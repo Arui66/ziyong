@@ -99,8 +99,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/rank?rank_id=0&channel_id=2&offset=0&limit=10',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     Host: 'novel.vpquc9rn.com',
     Connection: 'Keep-Alive',
     'Accept-Encoding': 'gzip',
@@ -148,8 +148,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoTaskComplete',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -191,8 +191,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoCheckIn',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -236,8 +236,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoTaskCompleteDouble',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -279,8 +279,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoShareNovel?bookId=3252679&taskid=38',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -322,8 +322,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoReadPreferenceSet',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -365,8 +365,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoWatchInspireVideo',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -408,8 +408,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoBindInviter?code=XWIQNZ',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -451,8 +451,8 @@ var options = {
   url: 'https://novel.vpquc9rn.com/api/task/bajiaoTreasureBoxComplete',
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -494,8 +494,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/content?bookId=${a}&chapterId=1`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -538,8 +538,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/task/bajiaoReadTime?readTime=30`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -582,8 +582,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/task/readTiming`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -625,8 +625,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/task/tasks?c=XP0NGJcEmJATDmOr3T8i4g%3D%3D`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -680,8 +680,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/task/bajiaoRemind`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -706,9 +706,9 @@ var options = {
                 }
                 if (result.ret == 0) {
                     log('今日获得：'+result.data.integral_today)
-                    log('公共获得：'+result.data.integral_total)
+                    log('总共获得：'+result.data.integral_total)
                     log('今日已阅读：'+result.data.readtime/60)
-                    msg += '今日获得：'+result.data.integral_today+'\n公共获得：'+result.data.integral_total+'\n今日已阅读：'+result.data.readtime/60
+                    msg += '今日获得：'+result.data.integral_today+'\n总共获得：'+result.data.integral_total+'\n今日已阅读：'+result.data.readtime/60
 
                 } else 
                     log(result.msg)
@@ -727,8 +727,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/withdrawalInfoNew`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
@@ -791,8 +791,8 @@ var options = {
   url: `https://novel.vpquc9rn.com/api/WithdrawalFormNew?amount=${amount}&openid=${openid}`,
   headers: {
     'x-novel-app': bjxshd,
-    'client-id': 'ifsSdkysvtumeglrxoe3959745383482',
-    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":""}',
+    'client-id': 'a9fd7f4e645d4e6e',
+    'x-novel-info': '{"platform":0,"package":"com.feiyang.novel.reader","build":"94","channel":"xiaomi"}',
     'Content-Type': 'application/json',
     'Content-Length': '32',
     Host: 'novel.vpquc9rn.com',
