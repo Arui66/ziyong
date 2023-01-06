@@ -1,5 +1,5 @@
 /*
-邀请码：XWIQNZ
+邀请码:XWIQNZ
 安卓地址：https://x0.ifengimg.com/producttech/novel/apk/202205/7e8f05e9b40469a5131c84e5cb143948.apk
 苹果：APP商店 八蕉免费小说
 抓域名novel.vpquc9rn.com
