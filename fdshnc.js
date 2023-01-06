@@ -2,7 +2,7 @@
 软件名:福袋生活(安卓苹果都可以)
 种果树得红包，还可以兑换水果
 邀请码的可以填: LFWMKJR
-活动入口:我的-横幅广告-福袋农场
+活动入口:我的-横幅广告-福袋农场 
 变量名:fdshck
 export fdshck="XXXXXXXX#XXXXXXX@XXXXXX#XXXXX"  多账号用 @ 隔开 
 进入农场后抓包https://saas.hixiaoman.com/开头的，cookie里面userId和consumerId的值用#链接，只要数字就可以
