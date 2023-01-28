@@ -1,6 +1,8 @@
 # 变量名 sbzck 一行一个
 # 定时自己看着来
 # 注册链接 http://xyinmw.ddkuaidobanchq6hb.cn/6377771
+cron: 57 0,9 * * *
+const $ = new Env("赏帮赚");
 import json #line:1
 import os #line:2
 import sys #line:3
