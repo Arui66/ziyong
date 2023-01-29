@@ -44,7 +44,7 @@ async function start() {
     taskall = [];
     for (let user of userList) {
         taskall.push(await user.user_info());
-        await $.wait(10000);
+        await $.wait(2000);
     }
     await Promise.all(taskall);
     if (!$.ckStatus) return
@@ -52,14 +52,14 @@ async function start() {
     taskall = [];
     for (let user of userList) {
         taskall.push(await user.task_signin());
-        await $.wait(10000);
+        await $.wait(2000);
     }
     await Promise.all(taskall);
     console.log('\n================== 帖子 ==================\n');
     taskall = [];
     for (let user of userList) {
         taskall.push(await user.task_artList());
-        await $.wait(10000);
+        await $.wait(2000);
     }
     await Promise.all(taskall);
 
