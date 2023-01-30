@@ -3,7 +3,7 @@
 小程序：蜜雪冰城
 域名：mxsa.mxbc.net
 请求头：Access-Token：XXXXXXX
-变量：export mxbchd = 'XXXXXXX'
+变量：export mxbchd = 'XXXXXXX'   多账号@隔开
 */
 const $ = new Env('蜜雪冰城');
 const axios = require('axios');
