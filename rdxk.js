@@ -4,7 +4,7 @@
 热度星客 一天0.1   一元提现秒到微信 实名同名即可
 
 
-变量名reck
+变量名 rdck
 
      扫码打开小程序后 抓包 m.reduxingke.com 域名
      请求头  "Authori-zation":  Bearer 后面的值
