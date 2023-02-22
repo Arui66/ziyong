@@ -1,14 +1,12 @@
 /*
-地址：
-微信小程序:起飞线生活
-
+地址：微信小程序:起飞线生活
 抓取cluster.qifeixian.com域名
 查看请求头的x-ds-key
 变量
 export qfxhd=''
 多号@隔开
+corn 0 0/3 * * *
 */
-// corn 0 */3 * * *
 
 const $ = new Env('起飞线生活');
 const axios = require('axios');
