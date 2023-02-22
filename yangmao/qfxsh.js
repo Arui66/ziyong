@@ -5,7 +5,7 @@
 变量
 export qfxhd=''
 多号@隔开
-corn 0 0/3 * * *
+cron: 0 0/3 * * *
 */
 
 const $ = new Env('起飞线生活');
