@@ -4,8 +4,10 @@ import requests, json ,time,base64,binascii,hashlib,os
 # 配置帐号密码 一一对应 按需增删 不对上会出错 若帐号密码填写没有错误 还是报错应该是账号在非常用设备上登录, 需要验证码, 使用该设备安装图形化工具后自行前去验证https://web-alpha.vip.miui.com/page/info/mio/mio/internalTest 图形化工具怎么安装可参考https://cloud.tencent.com/developer/article/2069955
 # account =['帐号1','帐号2','账号3']
 # password =['密码1','密码2','密码3']
-# cron: 57 0,9 * * *
-const $ = new Env("小米社区任务得成长值");
+"""
+cron: 57 0,9 * * *
+new Env("小米社区任务得成长值");
+"""
 # 青龙变量 mi_account mi_password
 mi_account = os.getenv("mi_account").split('&')
 mi_password = os.getenv("mi_password").split('&')
