@@ -1,11 +1,11 @@
 /**
- * 先看脚本说明 先看脚本说明 
+ *  先看脚本说明 先看脚本说明 
  * 需要安装依赖sm-crypto
  * 需要安装依赖sm-crypto
  * 需要安装依赖sm-crypto
  * 下载地址走下链接
    https://h5.scimall.org.cn/user/register?invite_from=5&invite_uid=0vi8J
- *  
+ * 
  * ========= 青龙--配置文件 =========
  * 先手动进APP开启连签180天活动，并且自己创建一个部落,抓包拿到自己部落的group_id
  * 自己设置  本脚本内  的变量mygroupId为自己部落的id
@@ -16,8 +16,6 @@
 
  const { log } = require("console");
  const sm3 =require('sm-crypto').sm3;
-
-
  const $ = new Env("科技工作者之家");
  const notify = $.isNode() ? require("./sendNotify") : "";
  const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
@@ -32,7 +30,6 @@
 
  //部落id//部落id//部落id//部落id //部落id//部落id
  var mygroupId='3695'; //部落id
-
 
 
  var randomdisscusarr=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];    //评论随机数组
@@ -74,8 +71,11 @@ var discusstxt=['坐游船翠柳岸边飘临小径南湖陶我醉','山鸟群飞
 		 ck = ckArr[index].split("&");
 		 debugLog(`【debug】 这是你第 ${num} 账号信息:\n ${ck}`);
 		 await start();
+      
+       
 	 }
-	 await SendMsg(msg);
+	
+   await SendMsg(msg);
  
  })()
 	 .catch((e) => $.logErr(e))
@@ -91,12 +91,12 @@ var discusstxt=['坐游船翠柳岸边飘临小径南湖陶我醉','山鸟群飞
      
 	 await $.wait(3 * 1000);
 	 await login();
-
+     
   
 	 await $.wait(4 * 1000);
 	 await SignIn(); //先签到
 	 await $.wait(4 * 1000);
-
+     await Update_wallet1();
       //分享
      for(var i=0;i<10;i++)
 	 {
@@ -147,8 +147,8 @@ var discusstxt=['坐游船翠柳岸边飘临小径南湖陶我醉','山鸟群飞
 	 await $.wait(c * 1000);
 
 
-	 await Update_wallet();
-
+	 
+     await Update_wallet();
 	 await $.wait(2 * 1000);
  
  }
@@ -235,6 +235,7 @@ async function login() {
 		 };
 		 let result = await httpPost(pack, `登录`);
          _token=result.data.token;
+         //_token='5837e53f-08e3-4903-a178-60ec349e4a04'
 
 		 //console.log(result.data.token);
 		 if (result.code==0) {
@@ -601,9 +602,45 @@ async function Update_wallet() {
 		 }
 	 } catch (error) {
 		 console.log(error);
+       }
+  }
+//see
+	async function Update_wallet1() {
+	 let t=ts10();   //时间
+	 let encry_str='channel=baidu&device_model=MIX2&from=android&path=/app/version&sdk_int=28&system_version=android9&timestamp='+t+'&token='+_token+'&tourist_token='+uid+'&uuid='+uid+'&v=5.5.1&secretkey=LH6064#!@&YTM';
+	 let snstr=sm3(encry_str);
+	 let str='https://api-kejia.scimall.org.cn/app/version?timestamp='+t+'&v=5.5.1&from=android&device_model=MIX2&channel=baidu&system_version=android9&sdk_int=28'+'&uuid='+uid+'&tourist_token='+uid+'&token='+_token+'&sn='+snstr;
+	// console.log("登录加密段   "+encry_str);
+	 //console.log("登录sn    "+snstr);
+	 //console.log("登录地址     :"+str);
+	 try {
+		 let pack = {
+			 url:str,
+			 headers: {
+				 'Host': host,
+				 'Accept':'application/json;charset=UTF-8',
+				 'User-Agent':'okhttp/4.2.2',
+                 'Connection':'Keep-Alive'
+		 },
+			 
+		 };
+		 let result = await httpGet(pack, `更新钱包额度`);
+         //console.log(result);
+         if (result.code==0) {
+			 DoubleLog('检查更新'+result.msg);
+			 
+			 await wait(3);
+		  } else {
+			// DoubleLog(`更新额度失败了,原因未知!`);
+			 console.log(result);
+		 }
+	 } catch (error) {
+		 console.log(error);
 	 }
  
  }
+
+
 
 
 /**
