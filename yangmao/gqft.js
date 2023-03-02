@@ -90,7 +90,7 @@ class UserInfo {
                 headers: {
                     'Authorization': 'Bearer ' + this.ck,
                     'sig': sig,
-                    'appVersion': '1.2.0',
+                    'appVersion': '1.3.0',
                     'operateSystem': 'android',
                     'appId': '8c4131ff-e326-43ea-b333-decb23936673',
                     'deviceId': this.deviceId,
@@ -134,7 +134,7 @@ class UserInfo {
                     AppVersion: '',
                     Authorization: 'Bearer ' + this.ck,
                     sig: sig,
-                    appVersion: '1.2.0',
+                    appVersion: '1.3.0',
                     operateSystem: 'android',
                     appId: '8c4131ff-e326-43ea-b333-decb23936673',
                     deviceId: this.deviceId,
@@ -143,7 +143,7 @@ class UserInfo {
                     Host: 'gw.nevapp.gtmc.com.cn',
                     Connection: 'Keep-Alive',
                     'User-Agent': 'okhttp/4.8.1',
-                    'If-Modified-Since': 'Tue, 24 Jan 2023 14:47:49 GMT'
+                    'If-Modified-Since': 'Thu, 02 Mar 2023 10:24:49 GMT'
                 }
             };
             options = changeCode(options)
@@ -187,7 +187,7 @@ class UserInfo {
                     'Sec-Fetch-Site': 'same-site',
                     'Sec-Fetch-Mode': 'cors',
                     'Sec-Fetch-Dest': 'empty',
-                    Referer: 'https://app.nevapp.gtmc.com.cn/',
+                    Referer: 'https://app.nevapp.gtmc.com.cn/h5/pages/mine/task/',
                     'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
                 },
                 body: {},
@@ -223,7 +223,7 @@ class UserInfo {
                     AppVersion: '',
                     Authorization: 'Bearer ' + this.ck,
                     sig: sig,
-                    appVersion: '1.2.0',
+                    appVersion: '1.3.0',
                     operateSystem: 'android',
                     appId: '8c4131ff-e326-43ea-b333-decb23936673',
                     deviceId: this.deviceId,
@@ -278,7 +278,7 @@ class UserInfo {
                     AppVersion: '',
                     Authorization: 'Bearer ' + this.ck,
                     sig: sig,
-                    appVersion: '1.2.0',
+                    appVersion: '1.3.0',
                     operateSystem: 'h5',
                     appId: '56cc6d04-f46a-4a45-8bb4-114ffa0996b9',
                     deviceId: this.deviceId,
@@ -324,7 +324,7 @@ class UserInfo {
                     AppVersion: '',
                     Authorization: 'Bearer ' + this.ck,
                     sig: sig,
-                    appVersion: '1.2.0',
+                    appVersion: '1.3.0',
                     operateSystem: 'android',
                     appId: '8c4131ff-e326-43ea-b333-decb23936673',
                     deviceId: this.deviceId,
