@@ -1,6 +1,6 @@
 /*
 小程序 龙湖天街
-export lzhd='X-LF-UserToken'
+export lzhd='X-LF-UserToken' 多账号用 @ 隔开
 别登录小程序 登录会失效需要重新抓
 cron: 47 9,15 * * *
 */
