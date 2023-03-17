@@ -103,30 +103,30 @@ class UserInfo {
         this.ckstatus = true
         this.headersGet = {
             //txcookie: this.ck1,
-            devicesn: '352496825466248',
+            devicesn: '356617505697247',
             Host: 'app.geely.com',
             platform: 'Android',
             token: this.ck,
-            'user-agent': 'okhttp/4.3.1'
+            'user-agent': 'okhttp/4.5.0'
         }
         this.headersPostv1 = {
-            //txcookie: this.ck1,
-            devicesn: '352496825466248',
+            // txcookie: this.ck1,
+            devicesn: '356617505697247',
             Host: 'app.geely.com',
             platform: 'Android',
             token: this.ck,
             'Content-Type': 'application/json; charset=utf-8',
-            'user-agent': 'okhttp/4.3.1'
+            'user-agent': 'okhttp/4.5.0'
         }
         this.headersPostv2 = {
-            //txcookie: this.ck1,
-            devicesn: '352496825466248',
+            // txcookie: this.ck1,
+            devicesn: '356617505697247',
             Host: 'app.geely.com',
             platform: 'Android',
             token: this.ck,
             'Content-Type': 'application/json; charset=utf-8',
             'user-agent': 'okhttp/4.3.1',
-            appversion: '3.1.0'
+            appversion: '2.6.0'
         }
         //this.randomInt = randomInt(0, 6);
         //this.commentTxtArr = ["真不错啊", "很棒啊", "好可爱啊", "真厉害呀", "我超级想要", "怎么办呐", "哇咔咔"]
@@ -181,11 +181,12 @@ class UserInfo {
     }
 
     async task_sign() { // 执行签到
+        var date = new Date(+new Date()+8*3600*1000).toISOString().replace(/T/g,' ').replace(/\.[\d]{3}Z/,'')
         try {
             const options = {
-                url: 'https://app.geely.com/api/v1/user/sign/',
+                url: 'https://app.geely.com/api/v1/userSign/sign/',
                 headers: this.headersPostv1,
-                body: ``,
+                body: JSON.stringify({"signDate": date}),
             };
             //console.log(options);
             let result = await httpRequest(options);
@@ -268,10 +269,10 @@ class UserInfo {
                 url: 'https://app.geely.com/apis/api/v2/comment/publisherComment',
                 headers: {
                     Host: 'app.geely.com',
-                    'user-agent': 'Mozilla/5.0 (Linux; Android 10; V1831A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36/geelyApp/android/geelyApp',
+                    'user-agent': 'Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.190910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36/android/geelyApp',
                     'x-data-sign': sign,
                     'Content-Type': 'application/json; charset=utf-8',
-                    'devicesn': '352496825466248',
+                    'devicesn': '356617505697247',
                     'accept': 'application/json, text/plain, */*',
                     txcookie: this.ck1,
                     'platform': 'Android',
