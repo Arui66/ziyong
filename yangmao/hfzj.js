@@ -63,7 +63,7 @@ class UserInfo {
         this.nonce = randomszxx(16)
 
         this.getHeaders = {
-            'ip': '192.168.6.146',
+            'ip': '192.168.6.154',
             'rs': 2,
             'bt-auth-appkey': 7736975579,
             'terminal': 'GW_APP_Haval',
@@ -73,7 +73,7 @@ class UserInfo {
             'accessToken': this.ck,
             'tokenId': '6312e13ef115468f89b3f736227866de',
             'sys': 'Android',
-            'cVer': '4.4.900',
+            'cVer': '4.5.201',
             'Host': 'gw-app.beantechyun.com',
             'Connection': 'Keep-Alive',
             //'Accept-Encoding': 'gzip'
@@ -81,7 +81,7 @@ class UserInfo {
             'If-Modified-Since': 'Sun, 29 Jan 2023 13:58:07 GMT',
         }
         this.postHeaders = {
-            'ip': '192.168.6.146',
+            'ip': '192.168.6.154',
             'rs': 2,
             'bt-auth-appkey': 7736975579,
             'terminal': 'GW_APP_Haval',
@@ -91,7 +91,7 @@ class UserInfo {
             'accessToken': this.ck,
             'tokenId': '6312e13ef115468f89b3f736227866de',
             'sys': 'Android',
-            'cVer': '4.4.900',
+            'cVer': '4.5.201',
             'Host': 'gw-app.beantechyun.com',
             'Connection': 'Keep-Alive',
             //'Accept-Encoding': 'gzip'
@@ -147,9 +147,9 @@ class UserInfo {
                     'accessToken': this.ck,
                     'rs': '2',
                     'terminal': 'GW_APP_Haval',
-                    'User-Agent': 'Mozilla/5.0 (Linux; Android 12; 21051182C Build/SKQ1.220303.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/046141 Mobile Safari/537.36 fromapp fromapp_Android_havalcVer=4.4.900',
+                    'User-Agent': 'Mozilla/5.0 (Linux; Android 13; 21051182C Build/TKQ1.221013.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/046247 Mobile Safari/537.36 fromapp fromapp_Android_havalcVer=4.5.201',
                     'Content-Type': 'application/json;charset=UTF-8',
-                    'cVer': '4.4.900',
+                    'cVer': '4.5.201',
                     //'Accept': 'application/json, textain, */*',
                     'bt-auth-appKey': '7849495624',
                     'brand': '1',
