@@ -6,7 +6,7 @@
  * ========= 青龙--配置文件 ===========
  * # 项目名称
  * export gqft_data='Authorization'  //authorization去掉bearer
- * 抓包https://gw.nevapp.gtmc.com.cn , 找到请求头 Authorization 即可 多账号@ 连接
+ * 抓包https://gw.nevapp.gtmc.com.cn , 找到请求头 Authorization 即可 多账号用 @ 或者回车 连接 
  * 
  * CK有效期问题暂未解决 请耐心等待
  *  估计这周解决
@@ -43,7 +43,7 @@ let appKey_android = '29012175-8d3c-b89b-a61d-4ecf65ff2e3c'//appSigSecret
 async function start() {
     await getVersion('smallfawn/Note/main/JavaScript/test.js')
     log(`\n============ 当前版本：${scriptVersionNow} 📌 最新版本：${scriptVersionLatest} ============`)
-    await getNotice()
+    //await getNotice()
     log('\n================== 用户信息 ==================\n');
     taskall = [];
     for (let user of userList) {
@@ -534,34 +534,6 @@ function getVersion(scriptUrl, timeout = 3 * 1000) {
     })
 }
 
-async function getNotice() {
-    try {
-        let options = {
-            url: `https://ghproxy.com/https://raw.githubusercontent.com/smallfawn/Note/main/Notice.json`,
-            headers: { 'User-Agent': '' },
-        }, result = await httpRequest(options);
-        if (!result || !('notice' in result)) {
-            options.url = `https://gitee.com/smallfawn/Note/raw/master/Notice.json`
-            result = await httpRequest(options);
-        }
-        if (result && 'notice' in result) {
-            DoubleLog(`${result.notice}`);
-        }
-    } catch (e) {
-        console.log(e);
-    }
-}
-async function hitokoto() { // 随机一言
-    try {
-        let options = {
-            url: 'https://v1.hitokoto.cn/',
-            headers: {}
-        }, result = await httpRequest(options);
-        return result.hitokoto
-    } catch (error) {
-        console.log(error);
-    }
-}
 // 双平台log输出
 function DoubleLog(data) {
     if ($.isNode()) {
