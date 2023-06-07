@@ -323,13 +323,13 @@ class UserInfo {
                 for (let i = 0; i < 10; i++) {
                     DoubleLog(`账号[${this.index}]  文章 [${result.body.list[i].id}]`);
                     let artId = result.body.list[i].id
-                    DoubleLog('开始浏览')
+                    //DoubleLog('开始浏览')
                     await $.wait(5000)
                     await this.task_read(artId)
-                    DoubleLog('开始点赞')
+                    //DoubleLog('开始点赞')
                     await $.wait(5000)
                     await this.task_like(artId)
-                    DoubleLog('开始分享')
+                    //DoubleLog('开始分享')
                     await $.wait(5000)
                     await this.task_share(artId)
                 }
