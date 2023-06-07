@@ -113,7 +113,7 @@ class UserInfo {
             'nonce': this.nonce_h5,
             'Authorization': this.ck,
             'Content-Type': 'application/json',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.190910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 BundleId/com.gtmc.nevapp DSApp/1.4.4 StatusBarHeight/30 BottomBarHeight/0',
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 13; 21051182C Build/TKQ1.221013.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/046247 Mobile Safari/537.36 BundleId/com.gtmc.nevapp DSApp/1.5.0 StatusBarHeight/14 BottomBarHeight/0',
             'timestamp': Date.now(),
             'appId': appId_h5,
             //'sig2': Date.now() + this.ck + this.nonce_h5 + appId_h5 + appKey_h5,
